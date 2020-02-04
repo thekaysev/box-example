@@ -1,0 +1,46 @@
+body {
+  
+}
+
+#containerBox {
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  /*margin: auto; */
+  height: 300px;
+  width: 80%;
+  background-color: #FF80AB;
+}
+#containerBox2 {
+  position: fixed;
+  top: 0px;
+  /*margin: auto; */
+  height: 300px;
+  width: 300px;
+  background-color: #F8BBD0;
+}
+
+#contentBox {
+  position: fixed;
+  top: 10%;
+  border: solid 1px red;
+  margin: 37px;
+  padding: 14px;
+  width: 200px
+}
+
+.floatBox {
+  height: 50px;
+  width: 50px;
+  background-color: tomato;
+  float: left;
+  padding: 10px;
+  margin-right: 4px;
+  overflow: auto;
+  border: solid 2px black;
+}
+
+#clearBox {
+  clear: right;
+/*   overflow: auto; */
+}
